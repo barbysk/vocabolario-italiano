@@ -36,8 +36,8 @@ function App() {
 
     try {
 
-      const respuesta = await fetch(
-        "http://localhost:3001/traducir",
+const respuesta = await fetch(
+  "https://vocabolario-italiano.onrender.com/traducir",
         {
           method: "POST",
           headers: {
